@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title Me</h2>
+<h3>@ViewBag.Message</h3>
+
+<br>
+
+<form action="MAILTO:keithalexmiller@gmail.com" method="post" enctype="text/plain">
+
+    <label for="name">Name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+
+    <br>
+
+    <label for="email">E-mail:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+
+    <br>
+    <label for="message">Message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="31"></textarea><br />
+
+    <br>
+    <input id="submit_button" class="btn-primary" type="submit" value="Send email" />
+
+</form>
+<br>
+<br>
+<button class="btn" style="background-color:red" onclick="history.go(-1); return true;"><strong><< Go Back</strong></button>
+
+<br>
+<br>
+
+    <h3>Or e-mail me directly at keithalexmiller@gmail.com</h3>
+
+<br>
+<br>
+<br>
